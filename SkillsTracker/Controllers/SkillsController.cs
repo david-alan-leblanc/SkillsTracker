@@ -19,10 +19,7 @@ namespace SkillsTracker.Controllers
                 "<ol><li>Alice</li><li>C#</li><li>Javascript</li></ol>";
             return Content(html, "text/html");
         }
-    }
 
-    public class SkillsFormController : Controller
-    {
         string skillLevel = "<option value='Intro'>Intro</option><option value='Intermediate'>Intermediate</option><option value='Advanced'>Advanced</option>";
         // GET: /<controller>/
         [HttpGet]
